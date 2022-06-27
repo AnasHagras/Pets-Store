@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=Helvetica);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+body {
+    background-color: #2e2b34 !important;
+    color: white !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color: white;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+span {
+    font-family: "Nosifer";
+    color: black;
+}
+
+header,
+nav,
+aside,
+section,
+footer {
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    /* align-items: center-right; */
+}
+
+aside {
+    /* align-items: center-left; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding-right: 25px;
+}
+
+tbody tr td:first-child {
+    font-weight: bold;
+}
+
+thead tr {
+    text-align: left;
+    font-weight: bold;
+}
+
+.beispiel {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+table {
+    padding: 60px 20px 20px 50px;
+}
+
+.buildAPlush {
+    margin: 0px 0px 0px 50px;
+}
